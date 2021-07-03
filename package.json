@@ -2,7 +2,7 @@
   "name": "aconchego",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://leafar7.github.io/projetoAconchego",
+  "homepage": "https://leafar7.github.io/projetoAconchego/",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.8.6",
