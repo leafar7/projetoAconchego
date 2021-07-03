@@ -2,7 +2,7 @@
 
 let resumeData = {
    // "imagebaseurl":"https://github.com/leafar7/projeto-aconchego",
-    "name": "Projeto Aconchego",
+    "name": "Grupo Aconchego",
     "role": "Levando aconchego",
     "roleDescription": " ao coração de quem precisa"
     }    
