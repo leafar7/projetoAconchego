@@ -4,95 +4,90 @@ export default class Resume extends Component {
   render() {
     return  (
         <React.Fragment>
-            {/* Resume Section
-   ================================================== */}
+            {/* Resume Section ===================== */}
 <section id="resume">
-  {/* Education
------------------------------------------------ */}
+  {/* Grupos---------------------------------------- */}
   <div className="row education">
     <div className="three columns header-col">
-      <h1><span>Education</span></h1>
+      <h1><span>Grupos</span></h1>
     </div>
     <div className="nine columns main-col">
       <div className="row item">
         <div className="twelve columns">
-          <h3>Federal University of the State of Rio de Janeiro - UNIRIO </h3>
-          <p className="info">bachelor degree at Information Systems <span>•</span> <em className="date">April 2011</em></p>
-          <p>At my time OF study i learned all of technologies to try my best way to be inserted inside world market.
+          <h3>Grupo Trabalhadores de Jesus </h3>
+          <p className="info">Grupo trabalhadores de Jesus <span>•</span> <em className="date">Época que começou o projeto ex.: Desde Abril 2011</em></p>
+          <p>Grupo destinado ao projeto na distribuição de comida na rua!!!
           </p>
         </div>
       </div> {/* item end */}
+
       <div className="row item">
         <div className="twelve columns">
-          <h3>School of Life</h3>
-          <p className="info"> Changing carrer or trying it <span>•</span> <em className="date">March 2019</em></p>
-          <p>
-            I started to learn and self learning about REactJs that this own site is build it. And all stuffs around it, like HTML 5, SCSS,JavaScript, NodeJs,etc.
+          <h3>Kardec - Sala de Luz </h3>
+          <p className="info">Grupo Kardec <span>•</span> <em className="date">Época que começou o projeto ex.: Desde Abril 2011</em></p>
+          <p>Grupo destinado a ajudar em diversas terapias como aromaterapia e Reiki.
           </p>
         </div>
       </div> {/* item end */}
+     
     </div> {/* main-col end */}
   </div> {/* End Education */}
-  {/* Work--------------------------------------------- */}
+  {/* Atividades--------------------------------------------- */}
   <div className="row work">
     <div className="three columns header-col">
-      <h1><span>Work</span></h1>
+      <h1><span>Atividades</span></h1>
     </div>
     <div className="nine columns main-col">
       <div className="row item">
         <div className="twelve columns">
-          <h3>This portfolio site</h3>
-          <p className="info">Web developer <span>•</span> <em className="date">March 2019 - Present</em></p>
+          <h3>Entregas de cestas básicas</h3>
+          <p className="info">Cestas básicas <span>•</span> <em className="date">Abril 2017 - Atualmente</em></p>
           <p>
-          I started understanding some concepts of React, because 
-          i already know things about programming because i am IT 
-          professional for some time, but never worked only with programming until now.
+          O início começou com a amizade de duas mulheres procurando 
+          ajudar e confortar a barriga dos irmãos que precisam de   
+          ajuda.
           </p>
         </div>
       </div> {/* item end */}
       <div className="row item">
         <div className="twelve columns">
-          <h3>Reserved for my next Project</h3>
-          <p className="info"> :) Thinking of It <span>•</span> <em className="date">March 2019 - Present</em></p>
+          <h3>Reservado para mais um bloco de palavras caso necessário</h3>
+          <p className="info"> Palavra chave destaque <span>•</span> <em className="date">Abril 2017 - Atualmente</em></p>
           <p>
-            Thinking !
+            Escreva aqui !
           </p>
         </div>
       </div> {/* item end */}
     </div> {/* main-col end */}
   </div> {/* End Work */}
-  {/* Skills--------------------------------------------- */}
+  {/* Habilidades em destaque Colunas preenchidas--------------------------------------------- */}
   <div className="row skill">
     <div className="three columns header-col">
-      <h1><span>Skills</span></h1>
+      <h1><span>Entregas</span></h1>
     </div>
     <div className="nine columns main-col">
-      <p>ReactJs,Html, CSS, Javascript,NodeJs.
+      <p>Cestas básicas, Roupas, Brinquedos, etc..
       </p>
       <div className="bars">
         <ul className="skills">
           
-        <li><span className="bar-expand wordpress" /><em>ReactJs</em></li>
-        <li><span className="bar-expand wordpress" /><em>Html</em></li>
-        <li><span className="bar-expand wordpress" /><em>CSS</em></li>
-        <li><span className="bar-expand wordpress" /><em>Javascript</em></li>
-        <li><span className="bar-expand wordpress" /><em>NodeJs</em></li>
-          
+        <li><span className="bar-expand wordpress" /><em>Cestas Básicas</em></li>
+        <li><span className="bar-expand wordpress" /><em>Roupas</em></li>
+        <li><span className="bar-expand wordpress" /><em>Brinquedos</em></li>
+                  
           {/*</ul>{<li><span className="bar-expand photoshop" /><em></em></li>
           <li><span className="bar-expand illustrator" /><em>Illustrator</em></li>
           <li><span className="bar-expand wordpress" /><em>Wordpress</em></li>
           <li><span className="bar-expand css" /><em>CSS</em></li>
           <li><span className="bar-expand html5" /><em>HTML5</em></li>
-<li><span className="bar-expand jquery" /><em>jQuery</em></li>*/}
+          <li><span className="bar-expand jquery" /><em>jQuery</em></li>*/}
         </ul>
       </div>{/* end skill-bars */}
     </div> {/* main-col end */}
   </div> {/* End skills */}
-</section> {/* Resume Section End*/}
+  </section> {/* Resume Section End*/}
 
-
-        </React.Fragment>
-    )
-    ;
-  }
-}
+        </React.Fragment>)
+    
+        }
+      }
