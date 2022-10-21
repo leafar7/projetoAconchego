@@ -4,16 +4,15 @@ export default class About extends Component {
   render() {
     return (
       <React.Fragment>
-        {/* About Section
-   ================================================== */}
+        {/* About Section ================================================== */}
         <section id="about">
           <div className="row">
             <div className="three columns">
-              <img className="profile-pic" src="images/profilepic.jpg" alt />
+              <img className="profile-pic" src="images/profilepic.jpg" alt="" />
             </div>
             <div className="nine columns main-col">
               <h2>Sobre</h2>
-              <p>Grupo Aconchego. Organização sem fins lucratrivos. Há mais de 28 anos levando carinho a outras pessoas.
+              <p>Grupo Aconchego. Organização sem fins lucratrivos. Há mais de 30 anos levando carinho a outras pessoas.
               </p>
               <div className="row">
                 <div className="columns contact-details">

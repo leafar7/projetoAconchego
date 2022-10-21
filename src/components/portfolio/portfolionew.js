@@ -4,7 +4,7 @@ export default class Portfolio extends Component {
   render() {
     return (
         <React.Fragment>
-    ============================= */}
+   {/*Portfolio New ============================= */}
 <section id="portfolio">
   <div className="row">
     <div className="twelve columns collapsed">

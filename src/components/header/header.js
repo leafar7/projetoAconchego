@@ -13,12 +13,12 @@ export default class Header extends Component {
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
             <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
             <ul id="nav" className="nav">
-              <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-              <li><a className="smoothscroll" href="#about">About</a></li>
-              <li><a className="smoothscroll" href="#resume">Resume</a></li>
+              <li className="current"><a className="smoothscroll" href="#home">Principal</a></li>
+              <li><a className="smoothscroll" href="#about">Sobre</a></li>
+              <li><a className="smoothscroll" href="#resume">Resumo</a></li>
               <li><a className="smoothscroll" href="#portfolio">Works</a></li>
               <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-              <li><a className="smoothscroll" href="#contact">Contact</a></li>
+              <li><a className="smoothscroll" href="#contact">Contato</a></li>
             </ul> {/* end #nav */}
           </nav> {/* end #nav-wrap */}
           <div className="row banner">
@@ -36,9 +36,9 @@ export default class Header extends Component {
                   <li><a href="#"><i className="fa fa-google-plus" /></a></li> 
                   <li><a href="https://linkedin.com/in/rafael-cano-a1239b3b/"><i className="fa fa-linkedin" /></a></li>
                   <li><a href="https://github.com/leafar7"><i className="fa fa-github" /></a></li>
-                  */
+                */}
                   <li><a href="https://www.instagram.com/grupo_aconchego/"><i className="fa fa-instagram" /></a></li>
-                  /*<li><a href="#"><i className="fa fa-dribbble" /></a></li>
+                 { /*<li><a href="#"><i className="fa fa-dribbble" /></a></li>
                   <li><a href="#"><i className="fa fa-skype" /></a></li> 
                 */}
               </ul>
@@ -54,5 +54,3 @@ export default class Header extends Component {
     )
   }
 }
-
-// eslint-disable-next-line no-unused-expressions
