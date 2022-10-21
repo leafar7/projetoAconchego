@@ -19,7 +19,7 @@ export default class Resume extends Component {
           <p>Grupo destinado ao projeto na distribuição de comida na rua!!!
           </p>
         </div>
-      </div> {/* item end */}https://github.com/leafar7/projetoAconchego.git
+      </div> {/* item end */}
 
       <div className="row item">
         <div className="twelve columns">
