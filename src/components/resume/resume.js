@@ -14,7 +14,7 @@ export default class Resume extends Component {
     <div className="nine columns main-col">
       <div className="row item">
         <div className="twelve columns">
-          <h3>Grupo Trabalhadores </h3>
+          <h3>Grupo </h3>
           <p className="info">Grupo  <span>•</span> <em className="date">Época que começou o projeto ex.: Desde Abril 2011</em></p>
           <p>Grupo...  destinado ao projeto na distribuição de comida na rua!!!
           </p>
